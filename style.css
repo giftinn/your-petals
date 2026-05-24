@@ -23,7 +23,7 @@ body {
 /* Love Message Styles */
 .love-message {
   position: fixed;
-  bottom: 10%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
@@ -32,15 +32,11 @@ body {
 }
 
 .love-message h1 {
-  font-family: 'Arial', sans-serif;
-  font-size: 3rem;
-  color: #ffb6c1; /* สีชมพูอ่อน */
-  text-shadow: 
-    0 0 10px #ffb6c1,
-    0 0 20px #f8bbd0,
-    0 0 30px #f8bbd0;
-  letter-spacing: 3px;
-  margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #ffb6c1;
+    text-shadow: 0 0 10px #ffb6c1, 0 0 20px #000000, 0 0 30px #f8bbd0;
+    letter-spacing: 3px;
 }
 
 @keyframes heartbeat {
